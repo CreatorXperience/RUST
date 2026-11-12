@@ -13,4 +13,5 @@ pub fn express(){
     println!("5 << 3 is {}", 5u32 << 3);
     println!("0x80 >> 2 is 0x{:x}", 0x80u32 << 2);
     println!("1 million is written as {}", 1_000_000u32);
+}
 

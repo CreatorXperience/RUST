@@ -6,6 +6,8 @@
 // the unit type (), whose only possible value is an empty tuple
 //
 mod expression;
+mod tupl;
+mod formatter;
 
 fn main(){
   let logical:bool = true;
@@ -30,7 +32,10 @@ fn main(){
   let array: [i32; 5] = [0,0,0,0,0];
   let tuple = (5u16, 0.5f32, true, -5.0f32);
 
-  expression::express()
+  expression::express();
+  tupl::reverse((64i32, true));
+  formatter::format();
+
   }
 
 
